@@ -12,7 +12,4 @@ if ($conexion->connect_error) {
     die("Error de conexión: " . $conexion->connect_error);
 }
 
-// Si llegaste aquí, la conexión fue exitosa
-// Puedes dejar esta línea para pruebas (luego se borra):
-// echo "Conexión exitosa!";
 ?>
